@@ -11,7 +11,7 @@
 
     <header>
         <h1>James Taljaard</h1>
-        <p>Learning, building, and finding my way into front-end web development.</p>
+        <p>Learning front-end development one step at a time.</p>
 
         <nav aria-label="Main navigation">
             <ul>
@@ -35,16 +35,19 @@
             </p>
 
             <p>
-                This portfolio is a place for me to document what I learn,
-                practise new skills, and show how my understanding of web
-                development grows throughout the course.
+                I’ve always enjoyed working with technology, and this course
+                is helping me understand more about what happens behind the
+                websites we use every day. I’m using this portfolio to
+                practise what I learn and keep track of how my skills develop
+                throughout the course.
             </p>
 
             <figure>
                 <img
                     src="images/james-taljaard.jpg"
                     alt="Portrait of James Taljaard"
-                    width="250">
+                    width="250"
+                    loading="lazy">
 
                 <figcaption>
                     The person behind the code — just getting started.
@@ -59,11 +62,10 @@
                 <h3>Starting with the Foundations</h3>
 
                 <p>
-                    Right now, I’m focused on HTML and learning how to give
-                    webpages a clear and meaningful structure. I’m also
-                    learning that a good website should be accessible,
-                    easy to navigate, and organised in a way that makes
-                    sense to both users and developers.
+                    Right now, I’m focusing on HTML and learning how to give
+                    a webpage a clear and meaningful structure. I’m also
+                    learning why accessibility, good navigation, and organised
+                    code are important when building websites.
                 </p>
 
                 <h3>Skills I’m Building</h3>
@@ -86,15 +88,15 @@
                 <h3>My First Portfolio Website</h3>
 
                 <p>
-                    This is my first official portfolio project as part of
-                    my front-end web development course. For this stage,
-                    I’m concentrating on building a clean and accessible
-                    webpage using semantic HTML5.
+                    This is my first official portfolio project for my
+                    front-end web development course. For now, I’m focusing
+                    on getting the HTML structure right and understanding how
+                    the different elements of a webpage work together.
                 </p>
 
                 <p>
-                    As I work through future modules, I’ll continue developing
-                    this portfolio and applying the new skills I learn.
+                    As I move through the course, I’ll keep improving this
+                    portfolio and add new skills and projects along the way.
                 </p>
             </article>
         </section>
@@ -103,13 +105,57 @@
             <h2>Contact Me</h2>
 
             <p>
-                If you would like to get in touch, you can reach me by email.
+                If you would like to get in touch, you can send me an email
+                or use the practice contact form below.
             </p>
 
             <p>
                 <a href="mailto:taljaardjames@gmail.com">
                     Send me an email
                 </a>
+            </p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Send Me a Message</legend>
+
+                    <p>
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            cols="40"
+                            required></textarea>
+                    </p>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+
+            <p>
+                <em>
+                    This form is for practice and is not connected to a
+                    server yet.
+                </em>
             </p>
         </section>
 
