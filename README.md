@@ -47,7 +47,7 @@ The projects section currently includes this portfolio website as my first proje
 
 ### Contact Me
 
-The contact section includes an email link so that visitors can contact me directly.
+The contact section includes an email link and a basic practice contact form. The form uses labels and HTML5 input fields to make it clear and accessible, but it is not connected to a server yet.
 
 ### Footer
 
